@@ -27,7 +27,7 @@ function createNoteElement(id, content) {
     updateNote(id, element.value);
   });
 
-  element.addEventListener("dblclick", () => {
+  element.addEventListener("click", () => {
     const doDelete = confirm(
       "Certeza que deseja apagar está nota?"
     );
